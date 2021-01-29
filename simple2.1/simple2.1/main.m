@@ -7,10 +7,24 @@
 
 #import <Foundation/Foundation.h>
 
+BOOL isDifferentNumber(int n1, int n2) {
+    if (n1 == n2) {
+        return NO;
+    }
+    return YES;
+}
+
+NSString* boolString(BOOL yesNo) {
+    if (YES == yesNo) {
+        return @"YES";
+    }
+    return @"NO";
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"are 34 and 12 different? %@", boolString(isDifferentNumber(34, 12)));
+        NSLog(@"are 5 and 5 different? %@", boolString(isDifferentNumber(5, 5)));
     }
     return 0;
 }
