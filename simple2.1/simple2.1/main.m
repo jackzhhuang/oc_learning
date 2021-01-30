@@ -21,6 +21,10 @@ NSString* boolString(BOOL yesNo) {
     return @"NO";
 }
 
+void willThisWork() {
+    NSLog(@"yes!!");
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"are 34 and 12 different? %@", boolString(isDifferentNumber(34, 12)));
