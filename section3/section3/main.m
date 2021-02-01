@@ -6,6 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "circle.h"
+
+void test() {
+    id shape;
+    
+    
+    
+    shape = [Circle new];
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

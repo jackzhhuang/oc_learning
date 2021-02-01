@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04511DA325C52D820076F1A2 /* circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04511DA225C52D820076F1A2 /* circle.m */; };
+		04511DA625C5355A0076F1A2 /* base_def.m in Sources */ = {isa = PBXBuildFile; fileRef = 04511DA525C5355A0076F1A2 /* base_def.m */; };
 		04A8BDDA25C50858002B6DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BDD925C50858002B6DB3 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04511D9F25C52D090076F1A2 /* base_def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base_def.h; sourceTree = "<group>"; };
+		04511DA025C52D2B0076F1A2 /* circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = circle.h; sourceTree = "<group>"; };
+		04511DA225C52D820076F1A2 /* circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circle.m; sourceTree = "<group>"; };
+		04511DA525C5355A0076F1A2 /* base_def.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base_def.m; sourceTree = "<group>"; };
 		04A8BDD625C50858002B6DB3 /* section3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = section3; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A8BDD925C50858002B6DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				04A8BDD925C50858002B6DB3 /* main.m */,
+				04511D9F25C52D090076F1A2 /* base_def.h */,
+				04511DA025C52D2B0076F1A2 /* circle.h */,
+				04511DA225C52D820076F1A2 /* circle.m */,
+				04511DA525C5355A0076F1A2 /* base_def.m */,
 			);
 			path = section3;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A8BDDA25C50858002B6DB3 /* main.m in Sources */,
+				04511DA325C52D820076F1A2 /* circle.m in Sources */,
+				04511DA625C5355A0076F1A2 /* base_def.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
